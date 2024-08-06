@@ -2,7 +2,7 @@ import React from 'react';
 
 function Body() {
   return (
-    <div className='bg-[#4c4c4c] opacity-100 pt-[6rem] h-auto sm:h-[44rem]'>
+    <div className='bg-[#4c4c4c] opacity-100 lg:pt-[6rem] h-auto pt-[1rem] sm:h-[44rem]'>
       <div
         className="relative max-w-7xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row justify-between items-center mt-[5rem]"
         style={{ height: "auto" }}

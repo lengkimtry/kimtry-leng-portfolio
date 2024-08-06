@@ -9,10 +9,10 @@ function Navbar() {
 
   return (
     <section className="bg-[#2c2c2c] opacity-100 pt-[0.5rem] fixed top-0 w-full z-30">
-      <nav className="flex items-center px-10 justify-between">
+      <nav className="flex items-center px-10  justify-between">
         <a
-          className="flex items-center text-white no-underline text-2xl pb-3"
-          href="#"
+          className="flex items-center text-white no-underline text-2xl lg:pb-3 pb-[0.7rem]"
+          href="/"
         >
           KIMTRY LENG
         </a>
@@ -66,44 +66,46 @@ function Navbar() {
       </nav>
 
       {isOpen && (
-        <div className="md:hidden bg-black flex flex-col w-[10rem] items-start justify-end self-end ">
-          <Link href="/" passHref>
-            <li
-              onClick={toggleMenu}
-              className="block font-bold hover:shadow-lg text-white  px-6  p-2 rounded transition duration-300 hover:bg-opacity-0"
+        <div className="flex justify-end">
+          <div className="md:hidden bg-black flex flex-col w-[10rem] items-start justify-end self-end mr-[1.02rem] bg-opacity-30">
+            <Link href="/" passHref>
+              <li
+                onClick={toggleMenu}
+                className="block font-bold hover:shadow-lg w-[10rem] text-white hover:bg-[hsla(234,12%,35%,1)]  px-6  p-2 transition duration-300 hover:bg-opacity-0"
+              >
+                Home
+              </li>
+            </Link>
+            <Link href="/project">
+              <li
+                onClick={toggleMenu}
+                className="block font-bold w-[10rem] text-white hover:bg-[hsla(234,12%,35%,1)]  px-6 p-2 transition duration-300 hover:bg-opacity-25"
+              >
+                Project
+              </li>
+            </Link>
+            <Link href="/contact" passHref>
+              <li
+                onClick={toggleMenu}
+                className="block font-bold w-[10rem] text-white hover:bg-[hsla(234,12%,35%,1)]  px-6  p-2 transition duration-300 hover:bg-opacity-25"
+              >
+                Contact
+              </li>
+            </Link>
+            <Link
+              href="/MyCV.pdf"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Home
-            </li>
-          </Link>
-          <Link href="/project">
-            <li
-              onClick={toggleMenu}
-              className="block font-bold text-white px-6 p-2 rounded transition duration-300 hover:bg-opacity-25"
-            >
-              Project
-            </li>
-          </Link>
-          <Link href="/contact" passHref>
-            <li
-              onClick={toggleMenu}
-              className="block font-bold text-white px-6  p-2 rounded transition duration-300 hover:bg-opacity-25"
-            >
-              Contact
-            </li>
-          </Link>
-          <Link
-            href="/MyCV.pdf"
-            download
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <li
-              onClick={toggleMenu}
-              className="block font-bold text-white px-6 p-2 rounded transition duration-300 hover:bg-opacity-10"
-            >
-              Download CV
-            </li>
-          </Link>
+              <li
+                onClick={toggleMenu}
+                className="block font-bold w-[10rem] text-white hover:bg-[hsla(234,12%,35%,1)]  px-6 p-2 transition duration-300 hover:bg-opacity-10"
+              >
+                Download CV
+              </li>
+            </Link>
+          </div>
         </div>
       )}
     </section>

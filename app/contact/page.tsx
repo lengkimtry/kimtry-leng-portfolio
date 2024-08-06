@@ -5,7 +5,7 @@ import Image from "next/image";
 
 function ProjectPage() {
   return (
-    <div>
+    <div className="mb-8">
       <Navbar />
       <div className="bg-white w-full mt-[8rem] px-4 lg:px-8">
         <h2 className="text-center text-4xl font-bold leading-tight text-[#4c4c4c] mb-[3rem]">

@@ -16,7 +16,9 @@ const My_skill: React.FC = () => {
             </li>
             <li className="flex bg-[#007acc] rounded p-2 bg-opacity-20">
               <span className="font-semibold w-32">Address:</span>
-              <span className="ml-4">72P St, Kork Kleang Sen Sok Phnom Penh</span>
+              <span className="ml-4">
+                72P St, Kork Kleang Sen Sok Phnom Penh
+              </span>
             </li>
             <li className="flex">
               <span className="font-semibold w-32">E-mail:</span>
@@ -40,7 +42,7 @@ const My_skill: React.FC = () => {
       </div>
       <div className="flex text-xl lg:text-4xl font-bold leading-tight lg:mr-16 lg:pr-5">
         <div className="flex-1 flex flex-wrap gap-4 border-2 justify-center p-5 rounded-xl">
-          <div className="flex flex-col space-y-4">
+          <div className="flex lg:flex-col flex-row space-x-4 lg:space-x-0 lg:space-y-4">
             <div className="p-4 border-4 border-[#007acc] rounded-2xl text-center bg-white shadow-sm w-full sm:w-40 h-32 flex flex-col justify-center">
               <h1 className="text-2xl font-bold">50%-80%</h1>
               <h2 className="text-sm">HTML</h2>
@@ -50,7 +52,7 @@ const My_skill: React.FC = () => {
               <h2 className="text-sm">CSS</h2>
             </div>
           </div>
-          <div className="flex flex-col space-y-4">
+          <div className="flex lg:flex-col flex-row space-x-4 lg:space-x-0 lg:space-y-4">
             <div className="p-4 border-4 border-[#007acc] rounded-2xl text-center bg-white shadow-sm w-full sm:w-40 h-32 flex flex-col justify-center">
               <h1 className="text-2xl font-bold">50%-70%</h1>
               <h2 className="text-sm">JavaScript</h2>
@@ -60,7 +62,7 @@ const My_skill: React.FC = () => {
               <h2 className="text-sm">Tailwind</h2>
             </div>
           </div>
-          <div className="flex flex-col space-y-4">
+          <div className="flex lg:flex-col lg:space-y-4 lg:space-x-0 flex-row space-x-4">
             <div className="p-4 border-4 border-[#007acc] rounded-2xl text-center bg-white shadow-sm w-full sm:w-40 h-32 flex flex-col justify-center">
               <h1 className="text-2xl font-bold">50%-70%</h1>
               <h2 className="text-sm">C++</h2>
@@ -74,6 +76,6 @@ const My_skill: React.FC = () => {
       </div>
     </div>
   );
-}
+};
 
 export default My_skill;

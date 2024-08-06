@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 
 function ProjectPage() {
   return (
-    <div>
+    <div className="">
       <Navbar />
       <div className="flex flex-col p-4 items-center min-h-screen mt-[5rem]">
       <div className="h-10 flex justify-center items-center text-2xl font-bold leading-tight mt-8">

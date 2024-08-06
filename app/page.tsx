@@ -16,7 +16,7 @@ function page() {
       <My_skill/>
       <Home_portfo/>
       <Top_project/>
-      <Footer/>
+      
     </div>
   );
 }

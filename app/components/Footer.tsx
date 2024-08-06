@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-[#4c4c4c] text-white">
-      <div className="w-full h-auto flex flex-col lg:flex-row justify-around items-start p-4 lg:p-10">
+    <footer className="bg-[#4c4c4c] text-white pl-4 pt-5">
+      <div className="w-full h-auto flex flex-col lg:flex-row justify-around items-start  lg:p-10">
         {/* Contact Section */}
         <div className="flex flex-col mb-6 lg:mb-0">
           <div className="text-2xl leading-tight mb-4">Contact Me</div>
@@ -56,6 +56,9 @@ const Footer: React.FC = () => {
               <Link href="/cv" className="text-white">
                 My CV
               </Link>
+            </li>
+            <li className="mb-2">
+            <a className="" href="https://github.com/lengkimtry/kimtry-leng-portfolio">Visit Source Code</a>
             </li>
           </ul>
         </div>
