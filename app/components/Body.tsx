@@ -24,7 +24,7 @@ function Body() {
         <div className="absolute sm:ml-6 top-0 left-0 w-full h-full bg-gradient-to-r from-[#000000] to-[#000000] opacity-30 z-10"></div>
         <div className="relative w-full sm:w-1/2 px-6 pl-0 py-12 text-center flex flex-col lg:m-[5rem] justify-center z-20">
           <h1 className="text-3xl sm:text-4xl font-bold leading-tight text-white">
-            Welcome to Kimtry Lengs Portfolio!
+            Welcome to Kimtry Leng&#39;s Portfolio!
           </h1>
           <p className="mt-4 text-base sm:text-lg text-white">
             A Student, Developer, Drama Lover
