@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 function Body() {
@@ -8,7 +9,7 @@ function Body() {
         style={{ height: "auto" }}
       >
         <div className="relative w-full sm:w-1/2 mb-8 sm:mb-0">
-          <img
+          <Image
             className="object-cover w-full rounded-t ml-0 sm:mr-0"
             src="/my_picture2.jpg"
             alt="My Picture 2"
