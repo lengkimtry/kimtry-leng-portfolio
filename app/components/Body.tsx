@@ -16,7 +16,9 @@ function Body() {
             alt="My Picture 2"
             width={500}
             height={400}
-            style={{ maxWidth: "100%", height: "auto" }} // Ensures responsiveness
+            style={{ maxWidth: "100%", height: "auto" }} 
+            priority
+            loading="eager"// Ensures responsiveness
           />
         </div>
         <div className="absolute sm:ml-6  top-0 left-0 w-full h-full bg-gradient-to-r from-[#000000] to-[#000000] opacity-30 z-10"></div>
