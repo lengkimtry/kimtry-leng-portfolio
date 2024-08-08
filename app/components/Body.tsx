@@ -1,19 +1,21 @@
-import Image from 'next/image';
-import React from 'react';
+import Image from "next/image";
+import React from "react";
 
 function Body() {
   return (
-    <div className='bg-[#4c4c4c] opacity-100 lg:pt-[6rem] h-auto pt-[1rem] sm:h-[44rem]'>
+    <div className="bg-[#4c4c4c] opacity-100 lg:pt-[6rem] h-auto pt-[1rem] sm:h-[44rem]">
       <div
         className="relative max-w-7xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row justify-between items-center mt-[5rem]"
         style={{ height: "auto" }}
       >
         <div className="relative w-full sm:w-1/2 mb-8 sm:mb-0">
           <Image
-            className="object-cover w-full rounded-t ml-0 sm:mr-0"
-            src="/my_picture2.jpg"
+            className="object-cover rounded-t ml-0 sm:mr-0"
+            src={"/my_picture2.jpg"}
             alt="My Picture 2"
-            style={{ height: "auto", maxHeight: "25rem" }}
+            // style={{ height: "auto", maxHeight: "25rem" }}
+            width={400}
+            height={350}
           />
         </div>
         <div className="absolute sm:ml-6  top-0 left-0 w-full h-full bg-gradient-to-r from-[#000000] to-[#000000] opacity-30 z-10"></div>
