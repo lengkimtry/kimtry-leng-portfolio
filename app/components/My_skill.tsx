@@ -10,7 +10,7 @@ const My_skill: React.FC = () => {
               <span className="font-semibold w-32">Age:</span>
               <span className="ml-4">21</span>
             </li>
-            <li className="flex">
+            <li className="flex pl-2">
               <span className="font-semibold w-32">Residence:</span>
               <span className="ml-4">Cambodia</span>
             </li>
@@ -20,7 +20,7 @@ const My_skill: React.FC = () => {
                 72P St, Kork Kleang Sen Sok Phnom Penh
               </span>
             </li>
-            <li className="flex">
+            <li className="flex pl-2">
               <span className="font-semibold w-32">E-mail:</span>
               <a
                 className="ml-4 text-[#1a73e8]"
@@ -33,7 +33,7 @@ const My_skill: React.FC = () => {
               <span className="font-semibold w-32">Phone:</span>
               <span className="ml-4">+855 97-265-4163</span>
             </li>
-            <li className="flex">
+            <li className="flex pl-2">
               <span className="font-semibold w-32">Work:</span>
               <span className="ml-4">Looking for internship</span>
             </li>
