@@ -14,7 +14,7 @@ function My_infor() {
             Bonjour!
           </h2>
           <p className="mt-4 text-base sm:text-lg pr-3">
-            I'm Kimtry LENG. I am a third-year student majoring in software
+            Im Kimtry LENG. I am a third-year student majoring in software
             engineering at the Institute of Technology of Cambodia. I was born
             in a rural area of Kampong Cham province, Cambodia. I was motivated
             to follow my dream and continue to study at university in Phnom
