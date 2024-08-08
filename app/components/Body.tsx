@@ -10,7 +10,7 @@ function Body() {
       >
         <div className="relative w-full sm:w-1/2 mb-8 sm:mb-0">
           <Image
-            src={"/my_picture2.jpg"}
+            src={"/my_picture2.JPG"}
             alt="My Picture 2"
             width={377}
             height={350}
