@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-[#4c4c4c] text-white pl-4 pt-5">
+    <footer className="bg-[#4c4c4c] text-white">
       <div className="w-full h-auto flex flex-col lg:flex-row justify-around items-start  lg:p-10">
         {/* Contact Section */}
         <div className="flex flex-col mb-6 lg:mb-0">
@@ -63,7 +63,7 @@ const Footer: React.FC = () => {
           </ul>
         </div>
       </div>
-      <div className="bg-[#4c4c4c] text-white p-4 text-center">
+      <div className="bg-[#4c4c4c] text-white pb-3 text-center">
         <p>© 2024 KimtryLeng.</p>
       </div>
     </footer>

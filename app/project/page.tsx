@@ -19,7 +19,7 @@ function ProjectPage() {
             Textboard represents a pioneering online tool developed by the 2024 I3 GIC2B at Institute of Technology of Cambodia. It empowers users to input text and personalize its animation, direction, font selection, and other customizable features.
             </p>
           </div>
-          <button className="mt-[6rem] font-bold text-white ">
+          <button className="mt-[4rem] pb-2 font-bold text-white ">
             <a className=" hover:text-white px-6 bg-[#007acc] p-2 rounded transition duration-300 hover:bg-opacity-5 hover:bg-[#cc000042]" href="https://gic-textboard.netlify.app/">VISIT WEBSITE</a>
           </button>
         </div>

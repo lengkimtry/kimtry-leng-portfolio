@@ -64,11 +64,11 @@ const My_skill: React.FC = () => {
           </div>
           <div className="flex lg:flex-col lg:space-y-4 lg:space-x-0 flex-row space-x-4">
             <div className="p-4 border-4 border-[#007acc] rounded-2xl text-center bg-white shadow-sm w-full sm:w-40 h-32 flex flex-col justify-center">
-              <h1 className="text-2xl font-bold">50%-70%</h1>
+              <h1 className="text-2xl font-bold">50%-65%</h1>
               <h2 className="text-sm">C++</h2>
             </div>
             <div className="p-4 border-4 border-[#007acc] rounded-2xl text-center bg-white shadow-sm w-full sm:w-40 h-32 flex flex-col justify-center">
-              <h1 className="text-2xl font-bold">50%-80%</h1>
+              <h1 className="text-2xl font-bold">50%-65%</h1>
               <h2 className="text-sm">DBMS</h2>
             </div>
           </div>
