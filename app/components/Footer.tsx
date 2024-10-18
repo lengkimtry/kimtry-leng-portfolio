@@ -4,9 +4,9 @@ import Link from "next/link";
 const Footer: React.FC = () => {
   return (
     <footer className="bg-[#4c4c4c] text-white">
-      <div className="w-full h-auto flex flex-col lg:flex-row justify-around items-start  lg:p-10">
+      <div className="w-full h-auto flex flex-col justify-center items-center lg:flex-row lg:justify-around lg:items-start lg:p-10 pt-7">
         {/* Contact Section */}
-        <div className="flex flex-col mb-6 lg:mb-0">
+        <div className="flex flex-col mb-6 lg:mb-0  ">
           <div className="text-2xl leading-tight mb-4">Contact Me</div>
           <ul>
             <li className="flex mb-2">
@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
           </ul>
         </div>
         {/* Site Map Section */}
-        <div className="flex flex-col">
+        <div className="flex flex-col mb-6 lg:mb-0 mr-[9.2rem]">
           <div className="text-2xl leading-tight mb-4">Site Map</div>
           <ul>
             <li className="mb-2">
