@@ -41,36 +41,40 @@ const My_skill: React.FC = () => {
         </div>
       </div>
       <div className="flex text-xl lg:text-4xl font-bold leading-tight lg:mr-16 lg:pr-5">
-        <div className="flex-1 flex flex-wrap gap-4 border-2 justify-center p-5 rounded-xl">
-          <div className="flex lg:flex-col flex-row space-x-4 lg:space-x-0 lg:space-y-4">
-            <div className="p-4 border-4 border-[#007acc] rounded-2xl text-center bg-white shadow-sm w-full sm:w-40 h-32 flex flex-col justify-center">
-              <h1 className="text-2xl font-bold">50%-80%</h1>
-              <h2 className="text-sm">HTML</h2>
-            </div>
-            <div className="p-4 border-4 border-[#007acc] rounded-2xl text-center bg-white shadow-sm w-full sm:w-40 h-32 flex flex-col justify-center">
-              <h1 className="text-2xl font-bold">50%-80%</h1>
-              <h2 className="text-sm">CSS</h2>
-            </div>
+        <div className="flex-1 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 border-2 justify-center p-5 rounded-xl">
+          <div className="p-4 border-4 border-[#007acc] rounded-2xl text-center bg-white shadow-sm w-full h-32 flex flex-col justify-center">
+            <h1 className="text-2xl font-bold">HTML</h1>
+            <h2 className="text-sm">80%</h2>
           </div>
-          <div className="flex lg:flex-col flex-row space-x-4 lg:space-x-0 lg:space-y-4">
-            <div className="p-4 border-4 border-[#007acc] rounded-2xl text-center bg-white shadow-sm w-full sm:w-40 h-32 flex flex-col justify-center">
-              <h1 className="text-2xl font-bold">50%-70%</h1>
-              <h2 className="text-sm">JavaScript</h2>
-            </div>
-            <div className="p-4 border-4 border-[#007acc] rounded-2xl text-center bg-white shadow-sm w-full sm:w-40 h-32 flex flex-col justify-center">
-              <h1 className="text-2xl font-bold">50%-70%</h1>
-              <h2 className="text-sm">Tailwind</h2>
-            </div>
+          <div className="p-4 border-4 border-[#007acc] rounded-2xl text-center bg-white shadow-sm w-full h-32 flex flex-col justify-center">
+            <h1 className="text-2xl font-bold">CSS</h1>
+            <h2 className="text-sm">80%</h2>
           </div>
-          <div className="flex lg:flex-col lg:space-y-4 lg:space-x-0 flex-row space-x-4">
-            <div className="p-4 border-4 border-[#007acc] rounded-2xl text-center bg-white shadow-sm w-full sm:w-40 h-32 flex flex-col justify-center">
-              <h1 className="text-2xl font-bold">50%-65%</h1>
-              <h2 className="text-sm">C++</h2>
-            </div>
-            <div className="p-4 border-4 border-[#007acc] rounded-2xl text-center bg-white shadow-sm w-full sm:w-40 h-32 flex flex-col justify-center">
-              <h1 className="text-2xl font-bold">50%-65%</h1>
-              <h2 className="text-sm">DBMS</h2>
-            </div>
+          <div className="p-4 border-4 border-[#007acc] rounded-2xl text-center bg-white shadow-sm w-full h-32 flex flex-col justify-center">
+            <h1 className="text-2xl font-bold">Tailwind</h1>
+            <h2 className="text-sm">80%</h2>
+          </div>
+          <div className="p-4 border-4 border-[#007acc] rounded-2xl text-center bg-white shadow-sm w-full h-32 flex flex-col justify-center">
+            <h1 className="text-2xl font-bold">Javascript</h1>
+            <h2 className="text-sm">70%</h2>
+          </div>
+          <div className="p-4 border-4 border-[#007acc] rounded-2xl text-center bg-white shadow-sm w-full h-32 flex flex-col justify-center">
+            <h1 className="text-2xl font-bold">C++</h1>
+            <h2 className="text-sm">60%</h2>
+          </div>
+          <div className="p-4 border-4 border-[#007acc] rounded-2xl text-center bg-white shadow-sm w-full h-32 flex flex-col justify-center">
+            <h1 className="text-2xl font-bold">Java</h1>
+            <h2 className="text-sm">60%</h2>
+          </div>
+
+          <div className="p-4 border-4 border-[#007acc] rounded-2xl text-center bg-white shadow-sm w-full h-32 flex flex-col justify-center">
+            <h1 className="text-2xl font-bold">NextJS</h1>
+            <h2 className="text-sm">70%</h2>
+          </div>
+
+          <div className="p-4 border-4 border-[#007acc] rounded-2xl text-center bg-white shadow-sm w-full h-32 flex flex-col justify-center">
+            <h1 className="text-2xl font-bold">NestJS</h1>
+            <h2 className="text-sm">54%</h2>
           </div>
         </div>
       </div>

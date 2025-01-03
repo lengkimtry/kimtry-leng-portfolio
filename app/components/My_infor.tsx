@@ -36,7 +36,7 @@ function My_infor() {
           <div className="flex flex-col sm:flex-row justify-center items-center sm:justify-start lg:justify-evenly mt-[3rem]">
             <button className="font-bold text-white hover:text-white px-6 bg-[#007acc] p-3 rounded transition duration-300 hover:bg-opacity-50 mb-4 sm:mb-0 sm:mr-4 flex justify-center">
               <Link
-                href="/MyCV.pdf"
+                href="/MyCV1.pdf"
                 download
                 target="_blank"
                 rel="noopener noreferrer"

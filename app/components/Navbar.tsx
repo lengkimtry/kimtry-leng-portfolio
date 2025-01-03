@@ -53,7 +53,7 @@ function Navbar() {
             </li>
           </Link>
           <Link
-            href="/MyCV.pdf"
+            href="/MyCV1.pdf"
             download
             target="_blank"
             rel="noopener noreferrer"
