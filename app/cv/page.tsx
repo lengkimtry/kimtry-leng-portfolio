@@ -11,7 +11,7 @@ function Page() {
       >
         <p>
           Your browser does not support PDFs. Please download the PDF to view it:{" "}
-          <a href="/MyCV1.pdf"target="_blank"
+          <a href="/LENG_KimtryCV.pdf"target="_blank"
                   rel="noopener noreferrer" >
             Download PDF
           </a>

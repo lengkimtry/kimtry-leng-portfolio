@@ -61,7 +61,7 @@ function ProjectPage() {
             <div className="flex justify-evenly mt-[3rem]">
               <button className="font-bold text-white items-center hover:text-white px-6 bg-[#007acc] p-2 rounded transition duration-300 hover:bg-opacity-50 flex flex-grow justify-center">
                 <Link
-                  href="/MyCV.pdf"
+                  href="/LENG_KimtryCV.pdf"
                   download
                   target="_blank"
                   rel="noopener noreferrer"
